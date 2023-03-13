@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: yellow;
+}
+#top {
+    background-color: black;
+    width: 100%;
+    height: 10px;
+}
+.cc {
+    margin: 0 auto;
+    width: 70%;
+}
+
+.contact {
+    margin-top: 50px;
+    margin-left: 150px;
+    padding: 20px 20px;
+    background-color: #F3F2F3;
+    width: 70%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+.contact h2 {
+    text-align: center;
+    font-family: 'poppins', serif;
+}
+
+input[type="text"]{
+    width: 100%;
+    padding: 6px 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: 'poppins', serif;
+}
+button[type="submit"]{
+    padding: 7px 10px;
+    width: 100%;
+    border: none;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+    margin: 8px 0;
+    cursor: pointer;
+    font-family: 'poppins', serif;
+}
+button[type="submit"]:hover {
+    background-color: blue;
+    transition: 0.3s;
+}
+.sm {
+    margin-top: 50px;
+    margin-left: 600px;
+    
+}
+.sm button{
+    padding: 12px 16px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: green;
+    padding: 12px 16px;
+    margin: 10px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
